@@ -26,13 +26,13 @@ using System.IO;
 using System.Reflection;
 using NUnit.Compatibility;
 
-namespace NUnit.Framework.Internal.Tests
+namespace UnityCompatNUnit.Framework.Internal.Tests
 {
     [TestFixture]
     public class AssemblyHelperTests
     {
-        private static readonly string THIS_ASSEMBLY_PATH = "nunit.framework.tests.dll";
-        private static readonly string THIS_ASSEMBLY_NAME = "nunit.framework.tests";
+        private static readonly string THIS_ASSEMBLY_PATH = "UnityCompatNUnit.framework.tests.dll";
+        private static readonly string THIS_ASSEMBLY_NAME = "UnityCompatNUnit.framework.tests";
 
         [Test]
         public void GetNameForAssembly()

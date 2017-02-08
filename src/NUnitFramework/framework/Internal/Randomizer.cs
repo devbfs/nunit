@@ -27,7 +27,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// Randomizer returns a set of random _values in a repeatable

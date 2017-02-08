@@ -25,11 +25,11 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
-using NUnit.Framework.Internal.Builders;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal.Builders;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// TestCaseAttribute is used to mark parameterized test cases
@@ -189,7 +189,7 @@ namespace NUnit.Framework
         }
 
         /// <summary>
-        /// Gets or sets a value indicating whether this <see cref="NUnit.Framework.TestCaseAttribute"/> is explicit.
+        /// Gets or sets a value indicating whether this <see cref="UnityCompatNUnit.Framework.TestCaseAttribute"/> is explicit.
         /// </summary>
         /// <value>
         /// <c>true</c> if explicit; otherwise, <c>false</c>.

@@ -24,7 +24,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     using Internal;
 

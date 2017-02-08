@@ -24,7 +24,7 @@
 using System.Collections;
 using NUnit.TestUtilities.Collections;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     public class UniqueItemsTests : ConstraintTestBase

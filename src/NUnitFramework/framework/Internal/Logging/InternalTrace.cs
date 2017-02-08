@@ -24,7 +24,7 @@
 using System;
 using System.IO;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// InternalTrace provides facilities for tracing the execution

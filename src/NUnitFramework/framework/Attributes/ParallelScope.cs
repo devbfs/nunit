@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// The ParallelScope enumeration permits specifying the degree to

@@ -27,11 +27,11 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Security;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
-using NUnit.Framework.Internal.Builders;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal.Builders;
 
-namespace NUnit.Framework.Api
+namespace UnityCompatNUnit.Framework.Api
 {
     /// <summary>
     /// DefaultTestAssemblyBuilder loads a single assembly and builds a TestSuite

@@ -24,7 +24,7 @@
 #if !NET_4_0 && !NET_4_5
 using System.Threading;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     /// <summary>
     /// A simplified implementation of .NET 4 CountdownEvent

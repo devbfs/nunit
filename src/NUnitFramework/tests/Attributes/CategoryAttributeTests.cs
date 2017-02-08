@@ -22,12 +22,12 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData.CategoryAttributeData;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     /// <summary>
     /// Summary description for CategoryAttributeTests.

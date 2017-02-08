@@ -32,13 +32,13 @@ using System.Reflection;
 using System.Security;
 using System.Web.UI;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 #if NETSTANDARD1_6
 using System.Runtime.InteropServices;
 #endif
 
-namespace NUnit.Framework.Api
+namespace UnityCompatNUnit.Framework.Api
 {
     /// <summary>
     /// FrameworkController provides a facade for use in loading, browsing 

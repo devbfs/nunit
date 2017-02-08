@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// Represents a constraint that succeeds if the specified 

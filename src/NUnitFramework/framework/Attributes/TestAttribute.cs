@@ -22,13 +22,13 @@
 // ***********************************************************************
 
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework.Interfaces;
-    using NUnit.Framework.Internal;
-    using NUnit.Framework.Internal.Builders;
+    using UnityCompatNUnit.Framework.Interfaces;
+    using UnityCompatNUnit.Framework.Internal;
+    using UnityCompatNUnit.Framework.Internal.Builders;
 
     /// <summary>
     /// Adding this attribute to a method within a <seealso cref="TestFixtureAttribute"/> 

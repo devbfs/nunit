@@ -24,7 +24,7 @@
 using System;
 using System.Collections;
 
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     public class PropertyExistsTest : SyntaxTest
     {

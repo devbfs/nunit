@@ -23,10 +23,10 @@
 
 using System;
 using System.Collections;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestUtilities.Comparers;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     public class AllItemsConstraintTests

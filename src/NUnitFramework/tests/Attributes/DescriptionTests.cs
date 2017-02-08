@@ -22,12 +22,12 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 using NUnit.TestData;
 using NUnit.TestUtilities;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     // TODO: Review to see if we need these tests
 

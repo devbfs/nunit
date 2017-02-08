@@ -1,6 +1,6 @@
 using System;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// Keeps track of an interval time which can be represented in

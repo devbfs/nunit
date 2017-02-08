@@ -22,9 +22,9 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     public class EndsWithConstraintTests : StringConstraintTests

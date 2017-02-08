@@ -23,7 +23,7 @@
 
 using System.Collections;
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     /// <summary>
     /// The IDataPointProvider interface is used by extensions

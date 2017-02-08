@@ -22,7 +22,7 @@
 // ***********************************************************************
 
 using System.Reflection;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 // Information about this assembly is defined by the following attributes. 
 // Change them to the _values specific to your project.

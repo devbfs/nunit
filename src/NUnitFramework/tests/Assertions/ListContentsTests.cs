@@ -24,7 +24,7 @@
 using System;
 using NUnit.TestUtilities.Collections;
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     /// <summary>
     /// Summary description for ListContentsTests.

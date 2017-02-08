@@ -23,10 +23,10 @@
 
 using System;
 using System.Threading;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     [TestFixture]
     public class ApplyToTestTests

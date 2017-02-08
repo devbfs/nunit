@@ -23,12 +23,12 @@
 
 using System;
 using System.Linq;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData.AssertIgnoreData;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     /// <summary>
     /// Tests of IgnoreException and Assert.Ignore

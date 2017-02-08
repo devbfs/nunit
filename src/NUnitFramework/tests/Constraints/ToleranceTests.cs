@@ -24,12 +24,12 @@
 #region Using Directives
 
 using System;
-using NUnit.Framework;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Constraints;
 
 #endregion
 
-namespace NUnit.Framework.Tests.Constraints
+namespace UnityCompatNUnit.Framework.Tests.Constraints
 {
     [TestFixture]
     [Parallelizable(ParallelScope.None)] // Uses GlobalSettings

@@ -23,10 +23,10 @@
 
 using System;
 using NUnit.Common;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 #if !PORTABLE
-namespace NUnit.ConsoleRunner.Tests
+namespace UnityCompatNUnit.ConsoleRunner.Tests
 {
     [TestFixture]
     public sealed class DefaultOptionsProviderTests

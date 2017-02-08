@@ -25,7 +25,7 @@ using System;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// StackFilter class is used to remove internal NUnit

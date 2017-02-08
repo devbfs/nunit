@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// The abstract base class for all custom attributes defined by NUnit.

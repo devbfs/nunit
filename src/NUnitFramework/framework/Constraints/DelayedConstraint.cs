@@ -25,9 +25,9 @@
 using System;
 using System.Diagnostics;
 using System.Threading;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     ///<summary>
     /// Applies a delay to the match so that a match can be evaluated in the future.

@@ -23,12 +23,12 @@
 
 using System;
 using System.Collections;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData.TestFixtureSourceData;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     public class TestFixtureSourceTests
     {

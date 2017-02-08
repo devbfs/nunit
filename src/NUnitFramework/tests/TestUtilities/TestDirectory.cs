@@ -24,7 +24,7 @@
 #if !PORTABLE
 using System;
 using System.IO;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 namespace NUnit.TestUtilities
 {

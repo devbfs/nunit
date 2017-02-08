@@ -24,7 +24,7 @@
 using System;
 using System.Globalization;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// CultureDetector is a helper class used by NUnit to determine

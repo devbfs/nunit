@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// ThrowsNothingConstraint tests that a delegate does not

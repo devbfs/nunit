@@ -22,7 +22,7 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 using System.Security.Principal;
 
 namespace NUnit.TestData.TestFixtureTests

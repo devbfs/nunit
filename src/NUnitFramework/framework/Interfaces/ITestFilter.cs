@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     /// <summary>
     /// Interface to be implemented by filters applied to tests.

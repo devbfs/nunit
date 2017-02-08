@@ -22,9 +22,9 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// ThrowsConstraint is used to test the exception thrown by 

@@ -25,7 +25,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     using Interfaces;
     using Internal;

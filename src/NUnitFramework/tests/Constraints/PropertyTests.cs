@@ -24,9 +24,9 @@
 // TODO: Remove conditional code
 using System;
 using System.Collections.Generic;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     public class PropertyExistsTests : ConstraintTestBase
     {

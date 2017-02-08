@@ -25,13 +25,13 @@ using System;
 using System.Linq;
 using System.Security.Principal;
 using System.Threading;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
-using NUnit.Framework.Internal.Builders;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal.Builders;
 using NUnit.TestData.OneTimeSetUpTearDownData;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     [TestFixture]
     public class OneTimeSetupTearDownTest

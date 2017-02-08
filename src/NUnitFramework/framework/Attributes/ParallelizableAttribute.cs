@@ -22,10 +22,10 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// ParallelizableAttribute is used to mark tests that may be run in parallel.

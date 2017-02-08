@@ -29,11 +29,11 @@
 // #1 is feasible but doesn't provide much benefit
 // #2 requires infrastructure for dynamic test cases first
 using System;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
-using NUnit.Framework.Internal.Commands;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal.Commands;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// RepeatAttribute may be applied to test case in order

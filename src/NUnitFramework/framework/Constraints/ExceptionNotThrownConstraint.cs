@@ -1,6 +1,6 @@
 using System;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     internal class ExceptionNotThrownConstraint : Constraint
     {

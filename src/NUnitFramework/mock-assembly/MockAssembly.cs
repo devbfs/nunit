@@ -23,8 +23,8 @@
 
 using System;
 using System.Reflection;
-using NUnit.Framework;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Internal;
 #if !PORTABLE
 using NUnitLite;
 #endif

@@ -26,13 +26,13 @@ using System.Collections.Generic;
 #if PARALLEL
 using System.Collections.Concurrent;
 #endif
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 using System.Threading;
 #if NET_2_0
 using NUnit.Compatibility;
 #endif
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// Represents the result of running a test suite

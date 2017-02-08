@@ -22,7 +22,7 @@
 // ***********************************************************************
 
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     // TODO Needs tests
     /// <summary>

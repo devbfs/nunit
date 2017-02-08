@@ -24,9 +24,9 @@
 using System;
 using System.Reflection;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// The Test abstract class represents a test within the framework.

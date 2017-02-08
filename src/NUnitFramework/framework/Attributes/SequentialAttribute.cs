@@ -23,10 +23,10 @@
 
 using System;
 using System.Collections;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal.Builders;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal.Builders;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// Marks a test to use a Sequential join of any argument 

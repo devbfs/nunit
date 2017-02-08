@@ -24,8 +24,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using NUnit.Framework;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Constraints;
 
 namespace NUnit.TestUtilities
 {

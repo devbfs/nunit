@@ -27,8 +27,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using NUnit.Common;
-using NUnit.Framework;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestUtilities;
 using NUnit.Tests.Assemblies;
 

@@ -22,9 +22,9 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Commands
+namespace UnityCompatNUnit.Framework.Internal.Commands
 {
     /// <summary>
     /// TODO: Documentation needed for class

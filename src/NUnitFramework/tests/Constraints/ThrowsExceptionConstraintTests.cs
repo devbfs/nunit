@@ -22,10 +22,10 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     public class ThrowsExceptionConstraintTests : ConstraintTestBase

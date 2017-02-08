@@ -25,14 +25,14 @@
 #region Using Directives
 
 using System;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData;
 using NUnit.TestUtilities;
 
 #endregion
 
-namespace NUnit.Framework.Tests.Attributes
+namespace UnityCompatNUnit.Framework.Tests.Attributes
 {
     [TestFixture]
     [Author("Rob Prouse", "rob@prouse.org")]
@@ -52,7 +52,7 @@ namespace NUnit.Framework.Tests.Attributes
         public void TestOf()
         {
             Test testCase = TestBuilder.MakeTestCase(FixtureType, "Method");
-            Assert.AreEqual("NUnit.Framework.TestOfAttribute", testCase.Properties.Get(PropertyNames.TestOf));
+            Assert.AreEqual("UnityCompatNUnit.Framework.TestOfAttribute", testCase.Properties.Get(PropertyNames.TestOf));
         }
 
         [Test]
@@ -70,30 +70,30 @@ namespace NUnit.Framework.Tests.Attributes
 
             var mockFixtureSuite = (TestSuite)suite.Tests[0];
 
-            Assert.AreEqual("NUnit.Framework.TestOfAttribute", mockFixtureSuite.Properties.Get(PropertyNames.TestOf));
+            Assert.AreEqual("UnityCompatNUnit.Framework.TestOfAttribute", mockFixtureSuite.Properties.Get(PropertyNames.TestOf));
         }
 
         [Test]
         public void SeparateTestOfAttribute()
         {
             Test testCase = TestBuilder.MakeTestCase(FixtureType, "SeparateTestOfTypeMethod");
-            Assert.AreEqual("NUnit.Framework.TestOfAttribute", testCase.Properties.Get(PropertyNames.TestOf));
+            Assert.AreEqual("UnityCompatNUnit.Framework.TestOfAttribute", testCase.Properties.Get(PropertyNames.TestOf));
         }
 
         [Test]
         public void SeparateTestOfStringMethod()
         {
             Test testCase = TestBuilder.MakeTestCase(FixtureType, "SeparateTestOfStringMethod");
-            Assert.AreEqual("NUnit.Framework.TestOfAttribute", testCase.Properties.Get(PropertyNames.TestOf));
+            Assert.AreEqual("UnityCompatNUnit.Framework.TestOfAttribute", testCase.Properties.Get(PropertyNames.TestOf));
         }
 
         [Test]
         public void TestOfOnTestCase()
         {
             TestSuite parameterizedMethodSuite = TestBuilder.MakeParameterizedMethodSuite(FixtureType, "TestCaseWithTestOf");
-            Assert.AreEqual("NUnit.Framework.TestAttribute", parameterizedMethodSuite.Properties.Get(PropertyNames.TestOf));
+            Assert.AreEqual("UnityCompatNUnit.Framework.TestAttribute", parameterizedMethodSuite.Properties.Get(PropertyNames.TestOf));
             var testCase = (Test)parameterizedMethodSuite.Tests[0];
-            Assert.AreEqual("NUnit.Framework.TestCaseAttribute", testCase.Properties.Get(PropertyNames.TestOf));
+            Assert.AreEqual("UnityCompatNUnit.Framework.TestCaseAttribute", testCase.Properties.Get(PropertyNames.TestOf));
         }
     }
 }

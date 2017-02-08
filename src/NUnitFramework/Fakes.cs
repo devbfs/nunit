@@ -23,8 +23,8 @@
 
 using System;
 using NUnit.Compatibility;
-using NUnit.Framework.Internal;
-using NUnit.Framework.Internal.Execution;
+using UnityCompatNUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal.Execution;
 
 #if PORTABLE && !NUNITLITE && !NETSTANDARD1_6
 using BF = NUnit.Compatibility.BindingFlags;

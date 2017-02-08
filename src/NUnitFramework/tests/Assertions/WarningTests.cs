@@ -22,9 +22,9 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Constraints;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData;
 using NUnit.TestUtilities;
 
@@ -36,7 +36,7 @@ using System.Threading.Tasks;
 using Task = System.Threading.Tasks.TaskEx;
 #endif
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     [TestFixture]
     public class WarningTests

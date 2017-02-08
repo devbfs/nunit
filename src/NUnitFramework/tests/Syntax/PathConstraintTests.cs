@@ -25,7 +25,7 @@
 using System;
 using System.IO;
 
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     public class SamePathTest : SyntaxTest
     {

@@ -25,9 +25,9 @@
 using System;
 using System.IO;
 using System.ComponentModel;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Constraints;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// Asserts on Files

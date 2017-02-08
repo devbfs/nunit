@@ -22,7 +22,7 @@
 // ***********************************************************************
 using System.IO;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// A trace listener that writes to a separate file per domain

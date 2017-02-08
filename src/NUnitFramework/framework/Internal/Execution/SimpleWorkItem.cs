@@ -23,10 +23,10 @@
 
 using System;
 using System.Threading;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal.Commands;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal.Commands;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     /// <summary>
     /// A SimpleWorkItem represents a single test case and is

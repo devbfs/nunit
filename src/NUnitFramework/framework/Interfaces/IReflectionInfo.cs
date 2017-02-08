@@ -21,7 +21,7 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // ***********************************************************************
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     /// <summary>
     /// The IReflectionInfo interface is implemented by NUnit wrapper objects that perform reflection.

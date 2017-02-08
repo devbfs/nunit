@@ -26,13 +26,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
 #if PORTABLE || NETSTANDARD1_6
 using System.Linq;
 #endif
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// Helper methods for inspecting a type by reflection. 

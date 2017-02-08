@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     /// <summary>
     /// Summary description for ArrayNotEqualFixture.

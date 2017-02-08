@@ -29,7 +29,7 @@ using System.Security;
 using System.Security.Permissions;
 using System.Security.Policy;
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     [TestFixture]
     public class LowTrustFixture

@@ -24,7 +24,7 @@
 #if !PORTABLE && !NETSTANDARD1_6
 using System.Threading;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     public class ThreadingTests
     {

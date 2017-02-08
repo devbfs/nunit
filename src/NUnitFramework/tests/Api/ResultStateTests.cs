@@ -21,9 +21,9 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // ***********************************************************************
 
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Api
+namespace UnityCompatNUnit.Framework.Api
 {
     [TestFixture]
     public class ResultStateTests

@@ -23,9 +23,9 @@
 
 #if PARALLEL
 using System;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     /// <summary>
     /// QueuingEventListener uses an EventQueue to store any

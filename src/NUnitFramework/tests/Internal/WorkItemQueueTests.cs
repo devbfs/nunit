@@ -25,7 +25,7 @@
 using System.Threading;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     public class WorkItemQueueTests
     {

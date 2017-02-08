@@ -26,7 +26,7 @@ using System;
 using System.Threading;
 using System.Collections.Generic;
 
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     // NOTE: The tests in this file ensure that the various
     // syntactic elements work together to create a 

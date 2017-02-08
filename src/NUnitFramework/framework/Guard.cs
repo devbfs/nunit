@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// Class used to guard against unexpected argument values

@@ -33,7 +33,7 @@ using NUnit.Compatibility;
 using System.Runtime.ExceptionServices;
 #endif
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     internal abstract class AsyncInvocationRegion : IDisposable
     {

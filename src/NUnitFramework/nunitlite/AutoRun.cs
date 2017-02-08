@@ -26,7 +26,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using NUnit.Common;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
 namespace NUnitLite
 {

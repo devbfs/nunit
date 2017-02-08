@@ -1,17 +1,17 @@
 // ****************************************************************
 // Copyright 2007, Charlie Poole
 // This is free software licensed under the NUnit license. You may
-// obtain a copy of the license at http://nunit.org
+// obtain a copy of the license at http://NUnit.org
 // ****************************************************************
 
 #if !PORTABLE && !NETSTANDARD1_6
 using System.Collections.Generic;
 using System.Reflection;
 using NUnit.Compatibility;
-using NUnit.Framework.Api;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Api;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     [TestFixture]
     public class SetUpFixtureTests
@@ -57,7 +57,7 @@ namespace NUnit.Framework.Internal
         /// Tests that the TestSuiteBuilder correctly interprets a SetupFixture class as a 'virtual namespace' into which 
         /// all it's sibling classes are inserted.
         /// </summary>
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void NamespaceSetUpFixtureReplacesNamespaceNodeInTree()
         {
             string nameSpace = "NUnit.TestData.SetupFixture.Namespace1";
@@ -92,7 +92,7 @@ namespace NUnit.Framework.Internal
         /// Tests that the TestSuiteBuilder correctly interprets a SetupFixture class with no parent namespace 
         /// as a 'virtual assembly' into which all it's sibling fixtures are inserted.
         /// </summary>
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void AssemblySetUpFixtureReplacesAssemblyNodeInTree()
         {
             IDictionary<string, object> options = new Dictionary<string, object>();
@@ -139,7 +139,7 @@ namespace NUnit.Framework.Internal
         #endregion
 
         #region Simple
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void NamespaceSetUpFixtureWrapsExecutionOfSingleTest()
         {
             Assert.That(runTests("NUnit.TestData.SetupFixture.Namespace1").ResultState.Status, Is.EqualTo(TestStatus.Passed));
@@ -169,7 +169,7 @@ namespace NUnit.Framework.Internal
         #endregion
 
         #region TwoTestFixtures
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void NamespaceSetUpFixtureWrapsExecutionOfTwoTests()
         {
             Assert.That(runTests("NUnit.TestData.SetupFixture.Namespace2").ResultState.Status, Is.EqualTo(TestStatus.Passed));
@@ -191,7 +191,7 @@ namespace NUnit.Framework.Internal
         #endregion TwoTestFixtures
 
         #region SubNamespace
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void NamespaceSetUpFixtureWrapsNestedNamespaceSetUpFixture()
         {
             Assert.That(runTests("NUnit.TestData.SetupFixture.Namespace3").ResultState.Status, Is.EqualTo(TestStatus.Passed));
@@ -213,7 +213,7 @@ namespace NUnit.Framework.Internal
         #endregion SubNamespace
 
         #region TwoSetUpFixtures
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void WithTwoSetUpFixturesBothAreUsed()
         {
             Assert.That(runTests("NUnit.TestData.SetupFixture.Namespace4").ResultState.Status, Is.EqualTo(TestStatus.Passed));
@@ -240,7 +240,7 @@ namespace NUnit.Framework.Internal
         #endregion
 
         #region NoNamespaceSetupFixture
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void AssemblySetupFixtureWrapsExecutionOfTest()
         {
             ITestResult result = runTests(null, new Filters.FullNameFilter("SomeFixture"));

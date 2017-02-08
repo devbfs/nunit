@@ -30,7 +30,7 @@ using NUnit.TestUtilities;
 
 #endregion
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     [TestFixture]
     public class DirectoryAssertTests

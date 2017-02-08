@@ -26,7 +26,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// TestNameGenerator is able to create test names according to

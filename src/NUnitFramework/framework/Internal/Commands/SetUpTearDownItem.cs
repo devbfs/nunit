@@ -25,7 +25,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace NUnit.Framework.Internal.Commands
+namespace UnityCompatNUnit.Framework.Internal.Commands
 {
     /// <summary>
     /// SetUpTearDownItem holds the setup and teardown methods

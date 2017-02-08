@@ -25,13 +25,13 @@
 using System;
 using System.Linq;
 using System.Threading;
-using NUnit.Framework;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     [Parallelizable(ParallelScope.None)]
     public class TimeoutTests : ThreadingTests

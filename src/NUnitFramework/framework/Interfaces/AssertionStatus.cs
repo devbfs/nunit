@@ -21,7 +21,7 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // ***********************************************************************
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     /// <summary>
     /// AssertionStatus enumeration represents the possible outcomes of an assertion.

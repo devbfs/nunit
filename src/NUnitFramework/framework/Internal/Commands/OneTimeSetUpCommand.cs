@@ -23,9 +23,9 @@
 
 using System;
 using System.Collections.Generic;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Commands
+namespace UnityCompatNUnit.Framework.Internal.Commands
 {
     /// <summary>
     /// OneTimeSetUpCommand runs any one-time setup methods for a suite,

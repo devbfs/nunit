@@ -25,9 +25,9 @@ using System;
 using System.Collections;
 using System.Reflection;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Builders
+namespace UnityCompatNUnit.Framework.Internal.Builders
 {
     /// <summary>
     /// NUnitTestFixtureBuilder is able to build a fixture given

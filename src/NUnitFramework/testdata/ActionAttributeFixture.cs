@@ -25,8 +25,8 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
-using NUnit.Framework;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Interfaces;
 using NUnit.TestData.ActionAttributeTests;
 
 [assembly: TaggedAction("OnAssembly", ActionTargets.Suite | ActionTargets.Test)]

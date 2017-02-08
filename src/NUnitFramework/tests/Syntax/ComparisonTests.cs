@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     public class GreaterThanTest : SyntaxTest
     {

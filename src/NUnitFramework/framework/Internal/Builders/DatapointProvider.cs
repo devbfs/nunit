@@ -25,9 +25,9 @@ using System.Reflection;
 using System.Collections;
 using System.Collections.Generic;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Builders
+namespace UnityCompatNUnit.Framework.Internal.Builders
 {
     /// <summary>
     /// Provides data from fields marked with the DatapointAttribute or the

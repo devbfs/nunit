@@ -22,9 +22,9 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Constraints;
 
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     public abstract class SyntaxTest
     {

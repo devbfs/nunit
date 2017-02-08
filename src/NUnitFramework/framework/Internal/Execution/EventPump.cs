@@ -24,9 +24,9 @@
 #if PARALLEL
 using System;
 using System.Threading;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     /// <summary>
     /// The EventPumpState enum represents the state of an

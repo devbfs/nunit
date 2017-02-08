@@ -23,10 +23,10 @@
 
 using System;
 using System.ComponentModel;
-using NUnit.Framework.Constraints;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// Provides static methods to express conditions 

@@ -22,7 +22,7 @@
 // ***********************************************************************
 
 
-namespace NUnit.Framework.Internal.Commands
+namespace UnityCompatNUnit.Framework.Internal.Commands
 {
     /// <summary>
     /// TestActionItem represents a single execution of an

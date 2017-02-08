@@ -24,8 +24,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 
 namespace NUnitLite
 {

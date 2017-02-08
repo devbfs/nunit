@@ -23,9 +23,9 @@
 
 using System;
 using System.Collections.Generic;
-using NUnit.Framework.Internal.Commands;
+using UnityCompatNUnit.Framework.Internal.Commands;
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     /// <summary>
     /// ICommandWrapper is implemented by attributes and other

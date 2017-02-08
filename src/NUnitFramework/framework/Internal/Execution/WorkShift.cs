@@ -26,7 +26,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     /// <summary>
     /// The dispatcher needs to do different things at different,

@@ -23,9 +23,9 @@
 
 using System;
 using System.ComponentModel;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Constraints;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// Basic Asserts on strings.

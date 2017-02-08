@@ -22,11 +22,11 @@
 // ***********************************************************************
 
 using System.Collections.Generic;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal.Commands;
-using NUnit.Framework.Internal.Execution;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal.Commands;
+using UnityCompatNUnit.Framework.Internal.Execution;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// The TestMethod class represents a Test implemented as a method.

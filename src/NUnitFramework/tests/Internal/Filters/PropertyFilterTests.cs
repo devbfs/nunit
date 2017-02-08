@@ -25,7 +25,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NUnit.Framework.Internal.Filters
+namespace UnityCompatNUnit.Framework.Internal.Filters
 {
     [TestFixture("Priority", "High", false)]
     [TestFixture("Author", "Charlie", true)]

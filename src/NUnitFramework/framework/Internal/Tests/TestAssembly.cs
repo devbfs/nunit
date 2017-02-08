@@ -24,7 +24,7 @@
 using System.IO;
 using System.Reflection;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// TestAssembly is a TestSuite that represents the execution

@@ -30,12 +30,12 @@
 // #2 requires infrastructure for dynamic test cases first
 using System;
 using System.Reflection;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData.RepeatingTests;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     [TestFixture]
     public class RetryAttributeTests

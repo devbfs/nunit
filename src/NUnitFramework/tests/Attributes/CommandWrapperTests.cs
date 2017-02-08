@@ -24,12 +24,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
-using NUnit.Framework.Internal.Commands;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal.Commands;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Attributes.Tests
+namespace UnityCompatNUnit.Framework.Attributes.Tests
 {
     public class CommandWrapperTests
     {

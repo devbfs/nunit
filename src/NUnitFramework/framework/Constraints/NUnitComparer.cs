@@ -26,7 +26,7 @@ using System.Collections;
 using System.Reflection;
 using NUnit.Compatibility;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// NUnitComparer encapsulates NUnit's default behavior

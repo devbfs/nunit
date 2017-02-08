@@ -27,7 +27,7 @@ using System.Collections.Generic;
 using System.IO;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     public class EqualityComparerTests

@@ -24,7 +24,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// CollectionTally counts (tallies) the number of

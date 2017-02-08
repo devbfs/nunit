@@ -22,11 +22,11 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData.AttributeInheritanceData;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     [TestFixture]
     public class AttributeInheritanceTests

@@ -1,6 +1,6 @@
-﻿using NUnit.Framework.Constraints;
+﻿using UnityCompatNUnit.Framework.Constraints;
 
-namespace NUnit.Framework.Tests.Constraints
+namespace UnityCompatNUnit.Framework.Tests.Constraints
 {
     [TestFixture]
     public class IntervalTests

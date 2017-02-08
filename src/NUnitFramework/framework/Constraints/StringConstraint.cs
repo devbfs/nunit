@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// StringConstraint is the abstract base for constraints

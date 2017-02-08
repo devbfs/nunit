@@ -23,9 +23,9 @@
 
 using System;
 using System.Collections;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Constraints;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// Helper class with properties and methods that supply

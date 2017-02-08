@@ -24,7 +24,7 @@
 
 #region Using Directives
 
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 #endregion
 

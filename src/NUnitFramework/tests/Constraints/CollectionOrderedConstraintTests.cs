@@ -24,11 +24,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestUtilities;
 using NUnit.TestUtilities.Comparers;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     public class CollectionOrderedConstraintTests

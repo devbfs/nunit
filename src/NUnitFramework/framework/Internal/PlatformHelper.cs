@@ -24,7 +24,7 @@
 using System;
 using System.Linq;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// PlatformHelper class is used by the PlatformAttribute class to 

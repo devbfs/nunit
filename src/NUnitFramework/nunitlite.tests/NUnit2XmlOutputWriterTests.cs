@@ -26,8 +26,8 @@ using System;
 using System.IO;
 using System.Text;
 using System.Xml;
-using NUnit.Framework;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Interfaces;
 using NUnit.Tests.Assemblies;
 
 namespace NUnitLite.Tests

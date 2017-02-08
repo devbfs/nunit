@@ -25,7 +25,7 @@ using System;
 using System.Collections;
 using System.Runtime.CompilerServices;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// ConstraintExpression represents a compound constraint in the 

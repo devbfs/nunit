@@ -26,14 +26,14 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 using NUnit.Compatibility;
-using NUnit.Framework.Api;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Api;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData.ActionAttributeTests;
 
-namespace NUnit.Framework.Tests
+namespace UnityCompatNUnit.Framework.Tests
 {
     [TestFixture]
     [Parallelizable(ParallelScope.None)]

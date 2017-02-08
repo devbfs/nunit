@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// Abstract base for Attributes that are used to include tests

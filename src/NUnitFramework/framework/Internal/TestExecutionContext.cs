@@ -27,9 +27,9 @@ using System.Globalization;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
-using NUnit.Framework.Constraints;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal.Execution;
+using UnityCompatNUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal.Execution;
 
 #if !PORTABLE && !NETSTANDARD1_6
 using System.Runtime.Remoting.Messaging;
@@ -38,7 +38,7 @@ using System.Security.Principal;
 using NUnit.Compatibility;
 #endif
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// Helper class used to save and restore certain static or
@@ -211,7 +211,7 @@ namespace NUnit.Framework.Internal
 #else
         // In all other builds, we use the CallContext
 
-        private static readonly string CONTEXT_KEY = "NUnit.Framework.TestContext";
+        private static readonly string CONTEXT_KEY = "UnityCompatNUnit.Framework.TestContext";
 
         /// <summary>
         /// Gets and sets the current context.

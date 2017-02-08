@@ -25,10 +25,10 @@ using System;
 using System.Collections;
 using System.Reflection;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// ValuesAttribute is used to provide literal arguments for
@@ -122,7 +122,7 @@ namespace NUnit.Framework
                 if (arg == null)
                     continue;
 
-                if (arg.GetType().FullName == "NUnit.Framework.SpecialValue" &&
+                if (arg.GetType().FullName == "UnityCompatNUnit.Framework.SpecialValue" &&
                     arg.ToString() == "Null")
                 {
                     data[i] = null;

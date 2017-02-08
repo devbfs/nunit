@@ -23,12 +23,12 @@
 
 using System.IO;
 using System.Collections.Generic;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 using NUnit.TestData.TestContextData;
 using NUnit.TestUtilities;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework.Tests
+namespace UnityCompatNUnit.Framework.Tests
 {
     [TestFixture]
     public class TestContextTests
@@ -117,14 +117,14 @@ namespace NUnit.Framework.Tests
         public void TestCanAccessItsOwnFullName()
         {
             Assert.That(TestContext.CurrentContext.Test.FullName,
-                Is.EqualTo("NUnit.Framework.Tests.TestContextTests.TestCanAccessItsOwnFullName"));
+                Is.EqualTo("UnityCompatNUnit.Framework.Tests.TestContextTests.TestCanAccessItsOwnFullName"));
         }
 
         [TestCase(42)]
         public void TestCaseCanAccessItsOwnFullName(int x)
         {
             Assert.That(TestContext.CurrentContext.Test.FullName,
-                Is.EqualTo("NUnit.Framework.Tests.TestContextTests.TestCaseCanAccessItsOwnFullName(42)"));
+                Is.EqualTo("UnityCompatNUnit.Framework.Tests.TestContextTests.TestCaseCanAccessItsOwnFullName(42)"));
         }
 
         [Test]

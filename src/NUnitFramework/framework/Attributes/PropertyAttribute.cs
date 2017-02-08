@@ -22,10 +22,10 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// PropertyAttribute is used to attach information to a test as a name/value pair..

@@ -21,7 +21,7 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // ***********************************************************************
 
-namespace NUnit.Framework.Internal.Commands
+namespace UnityCompatNUnit.Framework.Internal.Commands
 {
     /// <summary>
     /// The CommandStage enumeration represents the defined stages

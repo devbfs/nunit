@@ -31,7 +31,7 @@ using NUnit.Compatibility;
 using System.Linq;
 #endif
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     using Interfaces;
 

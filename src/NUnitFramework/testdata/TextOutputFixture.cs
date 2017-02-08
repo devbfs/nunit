@@ -22,7 +22,7 @@
 
 #if !PORTABLE
 using System;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 namespace NUnit.TestData
 {

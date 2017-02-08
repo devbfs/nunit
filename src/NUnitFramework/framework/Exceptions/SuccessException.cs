@@ -22,7 +22,7 @@
 // ***********************************************************************
 using System;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     using Interfaces;
 

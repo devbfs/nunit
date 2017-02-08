@@ -35,7 +35,7 @@ using System.Data;
 using System.Linq;
 #endif
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     /// <summary>
     /// Test Library for the NUnit CollectionAssert class.

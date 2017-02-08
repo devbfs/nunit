@@ -22,11 +22,11 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 using NUnit.TestData.AssertMultipleData;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Assertions.Tests
+namespace UnityCompatNUnit.Framework.Assertions.Tests
 {
     public class AssertMultipleTests
     {

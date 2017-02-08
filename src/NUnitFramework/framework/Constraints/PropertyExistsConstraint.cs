@@ -25,7 +25,7 @@ using System;
 using System.Reflection;
 using NUnit.Compatibility;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// PropertyExistsConstraint tests that a named property

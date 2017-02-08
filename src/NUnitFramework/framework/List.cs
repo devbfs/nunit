@@ -23,7 +23,7 @@
 
 using System.Collections;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
 	/// <summary>
 	/// The List class is a helper class with properties and methods

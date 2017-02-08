@@ -23,9 +23,9 @@
 
 using System;
 using System.Collections.Generic;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Builders
+namespace UnityCompatNUnit.Framework.Internal.Builders
 {
     /// <summary>
     /// Built-in SuiteBuilder for all types of test classes.

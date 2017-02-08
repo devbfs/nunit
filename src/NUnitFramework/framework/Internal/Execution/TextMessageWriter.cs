@@ -24,9 +24,9 @@
 using System;
 using System.Collections;
 using System.Globalization;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Constraints;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// TextMessageWriter writes constraint descriptions and messages

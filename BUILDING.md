@@ -1,3 +1,18 @@
+# Building NUnit for Unity Project Device Build Compatibility
+
+Recent versions of Unity now have a version of the NUnit framework included, however it is not up to date
+with NUnit 3.0, but it causes a namespace collision issue when trying to use the standard framework. Modifications
+have been made to change the namespaces and remove System.Windows calls. This version of the framework has been modified for
+device build (iOS, Android) usage only. 
+
+## Solution Build
+
+To ensure compatibility with Unity 5.5 device builds, use the nunit.framework-2.0 project, but change the
+Target Framework to be "Mono/.NET 3.5" (In Xamarin on Mac: Project -> nunit.framework-2.0 Options -> General)
+and ensure that the version of Mono in the .NET Runtimes of your IDE (Xamarin: Preferences -> .NET Runtimes)
+is appropriate for your version of Unity. Note: NUnit.System.Linq.dll should not be used with the generated dll,
+System.Linq is usable in Unity and trying to include it will cause other issues.
+
 # Building NUnit 3.0
 
 NUnit 3.0 consists of three separate layers: the Framework, the Engine and the Console Runner.

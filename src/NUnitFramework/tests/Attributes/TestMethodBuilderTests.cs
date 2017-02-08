@@ -23,10 +23,10 @@
 
 using System.Collections.Generic;
 using System.Reflection;
-using NUnit.Framework.Internal;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     public class TestMethodBuilderTests
     {

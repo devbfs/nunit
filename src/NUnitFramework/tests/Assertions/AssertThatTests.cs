@@ -21,9 +21,9 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // ***********************************************************************
 
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Constraints;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData;
 using NUnit.TestUtilities;
 
@@ -36,7 +36,7 @@ using System.Threading.Tasks;
 using Task = System.Threading.Tasks.TaskEx;
 #endif
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     using System;
 

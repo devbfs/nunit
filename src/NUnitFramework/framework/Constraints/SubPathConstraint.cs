@@ -23,7 +23,7 @@
 #if !PORTABLE
 using System;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// SubPathConstraint tests that the actual path is under the expected path

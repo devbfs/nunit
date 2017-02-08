@@ -22,7 +22,7 @@
 // ***********************************************************************
 using System;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// Operator that tests for the presence of a particular attribute

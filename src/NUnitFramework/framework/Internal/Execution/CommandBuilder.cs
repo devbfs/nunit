@@ -25,9 +25,9 @@ using System;
 using System.Reflection;
 using System.Collections.Generic;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     using Commands;
     using Interfaces;

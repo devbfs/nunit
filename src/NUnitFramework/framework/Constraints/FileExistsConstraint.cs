@@ -24,7 +24,7 @@
 #if !PORTABLE
 using System;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// FileExistsConstraint is used to determine if a file exists

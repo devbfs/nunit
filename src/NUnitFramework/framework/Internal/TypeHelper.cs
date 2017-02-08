@@ -28,9 +28,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// TypeHelper provides static methods that operate on Types.

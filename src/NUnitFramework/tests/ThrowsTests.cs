@@ -23,7 +23,7 @@
 
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Tests
+namespace UnityCompatNUnit.Framework.Tests
 {
     [TestFixture]
     public class ThrowsTests

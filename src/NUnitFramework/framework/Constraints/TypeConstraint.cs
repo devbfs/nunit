@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// TypeConstraint is the abstract base for constraints

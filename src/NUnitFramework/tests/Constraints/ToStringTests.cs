@@ -1,12 +1,12 @@
 ﻿// ****************************************************************
 // Copyright 2010, Charlie Poole
 // This is free software licensed under the NUnit license. You may
-// obtain a copy of the license at http://nunit.org
+// obtain a copy of the license at http://NUnit.org
 // ****************************************************************
 
 using System;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     public class ToStringTests
     {
@@ -16,7 +16,7 @@ namespace NUnit.Framework.Constraints
             Assert.That(Is.EqualTo(5).ToString(), Is.EqualTo("<equal 5>"));
             Assert.That(Has.Property("X").ToString(), Is.EqualTo("<propertyexists X>"));
             Assert.That(Has.Attribute(typeof(TestAttribute)).ToString(), 
-                Is.EqualTo("<attributeexists NUnit.Framework.TestAttribute>"));
+                Is.EqualTo("<attributeexists UnityCompatNUnit.Framework.TestAttribute>"));
         }
 
         [Test]
@@ -28,7 +28,7 @@ namespace NUnit.Framework.Constraints
             Assert.That(constraint.Resolve().ToString(), Is.EqualTo("<propertyexists X>"));
             constraint = Has.Attribute(typeof(TestAttribute)).With.Property("Description").EqualTo("smoke");
             Assert.That(constraint.Resolve().ToString(),
-                Is.EqualTo("<attribute NUnit.Framework.TestAttribute <property Description <equal \"smoke\">>>"));
+                Is.EqualTo("<attribute UnityCompatNUnit.Framework.TestAttribute <property Description <equal \"smoke\">>>"));
         }
 
         [Test]

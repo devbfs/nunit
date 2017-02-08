@@ -24,7 +24,7 @@
 using System;
 using System.IO;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// Provides internal logging to the NUnit framework

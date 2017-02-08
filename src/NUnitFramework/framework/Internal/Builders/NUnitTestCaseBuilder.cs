@@ -22,9 +22,9 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Builders
+namespace UnityCompatNUnit.Framework.Internal.Builders
 {
     /// <summary>
     /// NUnitTestCaseBuilder is a utility class used by attributes

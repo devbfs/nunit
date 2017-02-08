@@ -25,7 +25,7 @@
 using System;
 using System.IO;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// EmptyDirectoryConstraint is used to test that a directory is empty

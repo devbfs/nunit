@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// The Numerics class contains common operations on numeric _values.

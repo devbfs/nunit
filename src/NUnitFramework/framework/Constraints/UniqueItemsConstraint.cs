@@ -24,7 +24,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 { 
     /// <summary>
     /// UniqueItemsConstraint tests whether all the items in a 

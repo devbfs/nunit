@@ -27,10 +27,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Reflection;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// RandomAttribute is used to supply a set of random _values

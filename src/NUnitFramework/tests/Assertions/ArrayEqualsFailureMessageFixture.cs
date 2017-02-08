@@ -24,10 +24,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestUtilities.Collections;
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     /// <summary>
     /// Summary description for ArrayEqualsFailureMessageFixture.

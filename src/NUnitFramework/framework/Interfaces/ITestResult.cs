@@ -24,7 +24,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     /// <summary>
     /// The ITestResult interface represents the result of a test.

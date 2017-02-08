@@ -26,7 +26,7 @@ using System.Collections;
 using System.Collections.Generic;
 using NUnit.TestUtilities.Comparers;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     #region ComparisonConstraintTestBase
 

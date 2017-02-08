@@ -23,10 +23,10 @@
 
 using System;
 using System.Globalization;
-using NUnit.Framework;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Constraints;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     public class NullConstraintTest : ConstraintTestBase

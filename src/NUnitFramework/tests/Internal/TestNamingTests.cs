@@ -24,11 +24,11 @@
 using System.Reflection;
 using System.Text;
 
-namespace NUnit.Framework.Internal.Tests
+namespace UnityCompatNUnit.Framework.Internal.Tests
 {
     public abstract class TestNamingTests
     {
-        protected const string OUTER_CLASS = "NUnit.Framework.Internal.Tests.TestNamingTests";
+        protected const string OUTER_CLASS = "UnityCompatNUnit.Framework.Internal.Tests.TestNamingTests";
 
         protected abstract string FixtureName { get; }
 

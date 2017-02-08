@@ -25,7 +25,7 @@
 using System;
 using System.Collections;
 using System.Text;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 namespace NUnit.TestData.UnhandledExceptionData
 {
@@ -33,7 +33,7 @@ namespace NUnit.TestData.UnhandledExceptionData
     public class UnhandledExceptions
     {
         #region Normal
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void Normal()
         {
             throw new Exception("Test exception");
@@ -41,7 +41,7 @@ namespace NUnit.TestData.UnhandledExceptionData
         #endregion Normal
 
         #region Threaded
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void Threaded()
         {
             System.Threading.Thread thread = new System.Threading.Thread(new System.Threading.ThreadStart(Normal));
@@ -51,7 +51,7 @@ namespace NUnit.TestData.UnhandledExceptionData
         #endregion Threaded
 
         #region ThreadedAndForget
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void ThreadedAndForget()
         {
             System.Threading.Thread thread = new System.Threading.Thread(new System.Threading.ThreadStart(Normal));
@@ -60,7 +60,7 @@ namespace NUnit.TestData.UnhandledExceptionData
         #endregion ThreadedAndForget
 
         #region ThreadedAndWait
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void ThreadedAndWait()
         {
             System.Threading.Thread thread = new System.Threading.Thread(new System.Threading.ThreadStart(Normal));

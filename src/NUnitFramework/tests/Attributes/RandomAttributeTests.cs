@@ -26,11 +26,11 @@ using System.Reflection;
 using System.Text;
 using System.Linq;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 using NUnit.TestData.RandomAttributeTests;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     public class RandomAttributeTests
     {

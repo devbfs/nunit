@@ -24,12 +24,12 @@
 #if ASYNC
 using System.Collections;
 using System.Reflection;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal.Builders;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal.Builders;
 using NUnit.TestData;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     [TestFixture]
     public class AsyncTestMethodTests

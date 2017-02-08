@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// The SpecialValue enum is used to represent TestCase arguments

@@ -24,10 +24,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal.Commands;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal.Commands;
 
-namespace NUnit.Framework.Internal.Builders
+namespace UnityCompatNUnit.Framework.Internal.Builders
 {
     /// <summary>
     /// Class to build ether a parameterized or a normal NUnitTestMethod.

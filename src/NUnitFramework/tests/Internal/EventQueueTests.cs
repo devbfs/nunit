@@ -27,9 +27,9 @@ using System.Collections;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     /// <summary>
     /// Summary description for EventQueueTests.

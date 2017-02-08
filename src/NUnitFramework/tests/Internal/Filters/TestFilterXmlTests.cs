@@ -22,9 +22,9 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
-namespace NUnit.Framework.Internal.Filters
+namespace UnityCompatNUnit.Framework.Internal.Filters
 {
     public class TestFilterXmlTests : TestFilterTests
     {

@@ -26,7 +26,7 @@ using System.Reflection;
 using System.Globalization;
 using NUnit.Common;
 using NUnit.Options;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 namespace NUnitLite.Tests
 {

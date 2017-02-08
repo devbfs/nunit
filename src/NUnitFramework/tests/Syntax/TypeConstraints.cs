@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     [TestFixture]
     public class ExactTypeTest : SyntaxTest
@@ -80,7 +80,7 @@ namespace NUnit.Framework.Syntax
         [SetUp]
         public void SetUp()
         {
-            parseTree = "<attributeexists NUnit.Framework.TestFixtureAttribute>";
+            parseTree = "<attributeexists UnityCompatNUnit.Framework.TestFixtureAttribute>";
             staticSyntax = Has.Attribute(typeof(TestFixtureAttribute));
             builderSyntax = Builder().Attribute(typeof(TestFixtureAttribute));
         }
@@ -92,7 +92,7 @@ namespace NUnit.Framework.Syntax
         [SetUp]
         public void SetUp()
         {
-            parseTree = @"<attribute NUnit.Framework.TestFixtureAttribute <property Description <not <null>>>>";
+            parseTree = @"<attribute UnityCompatNUnit.Framework.TestFixtureAttribute <property Description <not <null>>>>";
             staticSyntax = Has.Attribute(typeof(TestFixtureAttribute)).Property("Description").Not.Null;
             builderSyntax = Builder().Attribute(typeof(TestFixtureAttribute)).Property("Description").Not.Null;
         }
@@ -154,7 +154,7 @@ namespace NUnit.Framework.Syntax
         [SetUp]
         public void SetUp()
         {
-            parseTree = "<attributeexists NUnit.Framework.TestFixtureAttribute>";
+            parseTree = "<attributeexists UnityCompatNUnit.Framework.TestFixtureAttribute>";
             staticSyntax = Has.Attribute<TestFixtureAttribute>();
             builderSyntax = Builder().Attribute<TestFixtureAttribute>();
         }

@@ -27,7 +27,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.Security;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// OSPlatform represents a particular operating system platform
@@ -53,7 +53,7 @@ namespace NUnit.Framework.Internal
             {
                 OSVERSIONINFOEX osvi = new OSVERSIONINFOEX();
                 osvi.dwOSVersionInfoSize = (uint)Marshal.SizeOf(osvi);
-                GetVersionEx(ref osvi);
+                //GetVersionEx(ref osvi);
                 if (os.Version.Major == 6 && os.Version.Minor >= 2)
                     os = new OperatingSystem(os.Platform, GetWindows81PlusVersion(os.Version));
                 currentPlatform = new OSPlatform(os.Platform, os.Version, (ProductType)osvi.ProductType);
@@ -197,8 +197,8 @@ namespace NUnit.Framework.Internal
             public readonly Byte Reserved;
         }
 
-        [DllImport("Kernel32.dll")]
-        private static extern bool GetVersionEx(ref OSVERSIONINFOEX osvi);
+        //[DllImport("Kernel32.dll")]
+        //private static extern bool GetVersionEx(ref OSVERSIONINFOEX osvi);
         #endregion
 
         /// <summary>
@@ -323,11 +323,11 @@ namespace NUnit.Framework.Internal
         static bool CheckIfIsMacOSX(PlatformID platform)
         {
             if (platform == PlatformID.MacOSX)
-            return true;
-
+                return true;
+            
             if (platform != PlatformID.Unix)
                 return false;
-
+            
             IntPtr buf = Marshal.AllocHGlobal(8192);
             bool isMacOSX = false;
             if (uname(buf) == 0)

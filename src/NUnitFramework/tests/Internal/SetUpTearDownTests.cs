@@ -23,11 +23,11 @@
 
 using System;
 using System.Linq;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 using NUnit.TestUtilities;
 using NUnit.TestData.SetUpData;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     [TestFixture]
     public class SetUpTearDownTests

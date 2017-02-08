@@ -24,7 +24,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     [Parallelizable(ParallelScope.None)] // Uses GlobalSettings
     public class EqualToTest : SyntaxTest

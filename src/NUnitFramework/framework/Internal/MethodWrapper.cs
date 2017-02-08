@@ -24,13 +24,13 @@
 using System;
 using System.Reflection;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
 #if PORTABLE || NETSTANDARD1_6
 using System.Linq;
 #endif
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// The MethodWrapper class wraps a MethodInfo so that it may

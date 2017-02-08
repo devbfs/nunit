@@ -27,7 +27,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// ExceptionHelper provides static methods for working with exceptions

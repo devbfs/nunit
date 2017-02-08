@@ -28,7 +28,7 @@ using System.Reflection;
 using System.Net.Sockets;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     /// <summary>
     /// Summary description for FileAssertTests.

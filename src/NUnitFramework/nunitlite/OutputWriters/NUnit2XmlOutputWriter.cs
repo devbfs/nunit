@@ -29,8 +29,8 @@ using System.Reflection;
 using System.Xml;
 using System.IO;
 using NUnit.Common;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 #if NETSTANDARD1_6
 using System.Runtime.InteropServices;
 #endif

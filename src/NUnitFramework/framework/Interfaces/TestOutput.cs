@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     /// <summary>
     /// The TestOutput class holds a unit of output from 

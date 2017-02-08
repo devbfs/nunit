@@ -28,7 +28,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using NUnit.Compatibility;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// NUnitEqualityComparer encapsulates NUnit's handling of

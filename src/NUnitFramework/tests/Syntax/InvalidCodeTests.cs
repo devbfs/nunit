@@ -25,17 +25,17 @@
 using System;
 using System.Collections;
 using System.CodeDom.Compiler;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Constraints;
 
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     [TestFixture]
     public class InvalidCodeTests
     {
         static readonly string template1 =
 @"using System;
-using NUnit.Framework;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Constraints;
 
 class SomeClass
 {
@@ -56,7 +56,7 @@ class SomeClass
         {
             string code = template1.Replace("$FRAGMENT$", fragment);
             TestCompiler compiler = new TestCompiler(
-                new string[] { "system.dll", "nunit.framework.dll" },
+                new string[] { "system.dll", "unity_compat_nunit.framework.dll" },
                 "test.dll");
             CompilerResults results = compiler.CompileCode(code);
             if (results.NativeCompilerReturnValue == 0)
@@ -65,8 +65,8 @@ class SomeClass
 
         static readonly string template2 =
 @"using System;
-using NUnit.Framework;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Constraints;
 
 class SomeClass
 {
@@ -86,7 +86,7 @@ class SomeClass
         {
             string code = template2.Replace("$FRAGMENT$", fragment);
             TestCompiler compiler = new TestCompiler(
-                new string[] { "system.dll", "nunit.framework.dll" },
+                new string[] { "system.dll", "unity_compat_nunit.framework.dll" },
                 "test.dll");
             CompilerResults results = compiler.CompileCode(code);
             if (results.NativeCompilerReturnValue == 0)

@@ -24,7 +24,7 @@
 using System;
 using System.Globalization;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// Provides methods to support legacy string comparison methods.

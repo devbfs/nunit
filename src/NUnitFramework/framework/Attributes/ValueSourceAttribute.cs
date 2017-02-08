@@ -26,10 +26,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// ValueSourceAttribute indicates the source to be used to

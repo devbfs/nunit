@@ -22,9 +22,9 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Filters
+namespace UnityCompatNUnit.Framework.Internal.Filters
 {
     /// <summary>
     /// TestName filter selects tests based on their Name

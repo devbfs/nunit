@@ -24,9 +24,9 @@
 #if !PORTABLE && !NETSTANDARD1_6
 using System;
 using System.Threading;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// Marks a test that must run in a particular threading apartment state, causing it

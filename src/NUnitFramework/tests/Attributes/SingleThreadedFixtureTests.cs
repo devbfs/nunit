@@ -25,11 +25,11 @@
 using System;
 using System.Linq;
 using System.Threading;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 using NUnit.TestData;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     [SingleThreaded]
     public class SingleThreadedFixtureTests : ThreadingTests

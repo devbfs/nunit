@@ -1,4 +1,17 @@
-﻿NUnit 3.6 - January 9, 2015
+﻿NUnit 3.6 Unity Device Build Compatibility Fork - February 8, 2017
+
+This fork of the framework contains changes to allow it to be executed in
+device builds of Unity 5.5 projects. They address namespace collisions
+and System.Windows methods that do not exist on device.
+
+Framework
+
+ * Renamed NUnit namespace to UnityCompatNUnit to resolve namespace collision
+ * Removed System.Windows reference that does not exist on devices.
+ * Removed Kernel32.dll usage
+ * Updated solution file and build instructions for Unity Compatibility
+
+NUnit 3.6 - January 9, 2015
 
 This release of the framework no longer includes builds for Compact Framework or
 for SilverLight, but adds a .NET Standard 1.6 build. If anyone still using

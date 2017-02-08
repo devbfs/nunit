@@ -22,9 +22,9 @@
 // ***********************************************************************
 
 using System.Collections.Generic;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Results
+namespace UnityCompatNUnit.Framework.Internal.Results
 {
     public class AssertionResultTests : TestResultTests
     {

@@ -23,7 +23,7 @@
 
 using System;
 using System.Collections.Generic;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 namespace NUnit.TestData.OneTimeSetUpTearDownData
 {

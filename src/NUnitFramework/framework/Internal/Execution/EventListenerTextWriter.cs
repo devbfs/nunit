@@ -25,9 +25,9 @@
 using System;
 using System.IO;
 using System.Text;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     /// <summary>
     /// EventListenerTextWriter sends text output to the currently active

@@ -25,12 +25,12 @@ using System;
 using System.Reflection;
 using System.Threading;
 using System.Globalization;
-using NUnit.Framework;
-using NUnit.Framework.Constraints;
-using NUnit.Framework.Internal.Execution;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Internal.Execution;
 using System.Security.Principal;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// Summary description for TestExecutionContextTests.
@@ -61,7 +61,7 @@ namespace NUnit.Framework.Internal
             TestExecutionContext ec = TestExecutionContext.CurrentContext;
             Assert.That(ec.CurrentTest.Name, Is.EqualTo("TestExecutionContextTests"));
             Assert.That(ec.CurrentTest.FullName,
-                Is.EqualTo("NUnit.Framework.Internal.TestExecutionContextTests"));
+                Is.EqualTo("UnityCompatNUnit.Framework.Internal.TestExecutionContextTests"));
             Assert.That(fixtureContext.CurrentTest.Id, Is.Not.Null.And.Not.Empty);
             Assert.That(fixtureContext.CurrentTest.Properties.Get("Question"), Is.EqualTo("Why?"));
         }
@@ -116,7 +116,7 @@ namespace NUnit.Framework.Internal
         public void FixtureSetUpCanAccessFixtureFullName()
         {
             Assert.That(fixtureContext.CurrentTest.FullName,
-                Is.EqualTo("NUnit.Framework.Internal.TestExecutionContextTests"));
+                Is.EqualTo("UnityCompatNUnit.Framework.Internal.TestExecutionContextTests"));
         }
 
         [Test]
@@ -147,7 +147,7 @@ namespace NUnit.Framework.Internal
         public void SetUpCanAccessTestFullName()
         {
             Assert.That(setupContext.CurrentTest.FullName,
-                Is.EqualTo("NUnit.Framework.Internal.TestExecutionContextTests.SetUpCanAccessTestFullName"));
+                Is.EqualTo("UnityCompatNUnit.Framework.Internal.TestExecutionContextTests.SetUpCanAccessTestFullName"));
         }
 
         [Test]
@@ -180,7 +180,7 @@ namespace NUnit.Framework.Internal
         public void TestCanAccessItsOwnFullName()
         {
             Assert.That(TestExecutionContext.CurrentContext.CurrentTest.FullName,
-                Is.EqualTo("NUnit.Framework.Internal.TestExecutionContextTests.TestCanAccessItsOwnFullName"));
+                Is.EqualTo("UnityCompatNUnit.Framework.Internal.TestExecutionContextTests.TestCanAccessItsOwnFullName"));
         }
 
         [Test]
@@ -450,7 +450,7 @@ namespace NUnit.Framework.Internal
                 null,
                 false);
 
-            var obj = domain.CreateInstanceAndUnwrap("nunit.framework.tests", "NUnit.Framework.Internal.TestExecutionContextTests+TestClass");
+            var obj = domain.CreateInstanceAndUnwrap("UnityCompatNUnit.framework.tests", "UnityCompatNUnit.Framework.Internal.TestExecutionContextTests+TestClass");
 
             Assert.NotNull(obj);
         }
@@ -475,7 +475,7 @@ namespace NUnit.Framework.Internal
         {
             var domain = AppDomain.CreateDomain("TestDomain", null, AppDomain.CurrentDomain.BaseDirectory, AppDomain.CurrentDomain.RelativeSearchPath, false);
             _runsInAppDomain = domain.CreateInstanceAndUnwrap(Assembly.GetExecutingAssembly().FullName,
-                "NUnit.Framework.Internal.RunsInAppDomain") as RunsInAppDomain;
+                "UnityCompatNUnit.Framework.Internal.RunsInAppDomain") as RunsInAppDomain;
             Assert.That(_runsInAppDomain, Is.Not.Null);
         }
 

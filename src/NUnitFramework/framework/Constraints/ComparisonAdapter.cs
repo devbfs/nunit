@@ -27,7 +27,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using NUnit.Compatibility;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// ComparisonAdapter class centralizes all comparisons of

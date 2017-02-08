@@ -24,7 +24,7 @@
 using System.Reflection;
 using NUnit.Compatibility;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     public class AttributeExistsConstraintTests : ConstraintTestBase
@@ -33,8 +33,8 @@ namespace NUnit.Framework.Constraints
         public void SetUp()
         {
             theConstraint = new AttributeExistsConstraint(typeof(TestFixtureAttribute));
-            expectedDescription = "type with attribute <NUnit.Framework.TestFixtureAttribute>";
-            stringRepresentation = "<attributeexists NUnit.Framework.TestFixtureAttribute>";
+            expectedDescription = "type with attribute <UnityCompatNUnit.Framework.TestFixtureAttribute>";
+            stringRepresentation = "<attributeexists UnityCompatNUnit.Framework.TestFixtureAttribute>";
         }
 
         static object[] SuccessData = new object[] { typeof(AttributeExistsConstraintTests) };

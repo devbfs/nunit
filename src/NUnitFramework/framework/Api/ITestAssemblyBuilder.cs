@@ -25,9 +25,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Api
+namespace UnityCompatNUnit.Framework.Api
 {
     /// <summary>
     /// The ITestAssemblyBuilder interface is implemented by a class

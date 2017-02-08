@@ -24,7 +24,7 @@
 #if !PORTABLE && !NETSTANDARD1_6
 using System;
 using System.Threading;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 namespace NUnit.TestData
 {

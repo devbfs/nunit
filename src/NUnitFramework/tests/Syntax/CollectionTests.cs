@@ -25,7 +25,7 @@ using System;
 using System.Collections;
 using NUnit.TestUtilities.Comparers;
 
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     public class UniqueTest : SyntaxTest
     {

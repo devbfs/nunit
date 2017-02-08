@@ -24,7 +24,7 @@
 using System.IO;
 using System.Collections;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// MessageWriter is the abstract base for classes that write

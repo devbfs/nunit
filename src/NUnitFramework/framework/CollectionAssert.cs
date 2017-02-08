@@ -24,9 +24,9 @@
 using System;
 using System.Collections;
 using System.ComponentModel;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Constraints;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// A set of Assert methods operating on one or more collections

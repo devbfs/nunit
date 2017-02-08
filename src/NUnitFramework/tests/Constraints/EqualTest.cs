@@ -24,7 +24,7 @@
 using System;
 using System.IO;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     public class EqualTests

@@ -28,7 +28,7 @@ using System.Text;
 using System.Collections.Generic;
 using NUnit.Compatibility;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// CollectionOrderedConstraint is used to test whether a collection is ordered.

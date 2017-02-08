@@ -24,7 +24,7 @@
 #if ASYNC
 using System;
 using System.Threading.Tasks;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 #if NET_4_0
 using Task = System.Threading.Tasks.TaskEx;

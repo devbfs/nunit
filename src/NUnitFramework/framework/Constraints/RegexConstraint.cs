@@ -23,7 +23,7 @@
 
 using System.Text.RegularExpressions;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// RegexConstraint can test whether a string matches

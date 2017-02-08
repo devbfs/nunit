@@ -24,11 +24,11 @@
 using System;
 using System.Threading;
 using System.Globalization;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 using NUnit.TestData.CultureAttributeData;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// Summary description for CultureDetectionTests.
@@ -36,7 +36,7 @@ namespace NUnit.Framework.Internal
     [TestFixture]
     public class CultureSettingAndDetectionTests
     {
-        private NUnit.Framework.Internal.CultureDetector detector = new NUnit.Framework.Internal.CultureDetector("fr-FR");
+        private UnityCompatNUnit.Framework.Internal.CultureDetector detector = new UnityCompatNUnit.Framework.Internal.CultureDetector("fr-FR");
 
         private void ExpectMatch( string culture )
         {

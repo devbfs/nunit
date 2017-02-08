@@ -23,11 +23,11 @@
 
 #if ASYNC
 using System;
-using NUnit.Framework.Constraints;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Internal;
 
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     public partial class Assert
     {

@@ -26,7 +26,7 @@ using System;
 using System.IO;
 //using System.Runtime.Remoting.Messaging;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     /// <summary>
     /// The TextCapture class intercepts console output and writes it

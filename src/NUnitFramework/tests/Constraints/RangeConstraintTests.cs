@@ -24,7 +24,7 @@
 using System;
 using NUnit.TestUtilities.Comparers;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     public class RangeConstraintTest : ConstraintTestBase

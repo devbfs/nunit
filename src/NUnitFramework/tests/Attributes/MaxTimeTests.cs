@@ -23,12 +23,12 @@
 #if !PORTABLE && !NETSTANDARD1_6
 using System;
 using System.Linq;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     /// <summary>
     /// Tests for MaxTime decoration.

@@ -27,7 +27,7 @@ using System.Reflection;
 using NUnit.Compatibility;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     public class RandomizerTests
     {

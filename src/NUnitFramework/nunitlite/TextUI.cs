@@ -28,8 +28,8 @@ using System.IO;
 using System.Reflection;
 using NUnit.Common;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 #if NETSTANDARD1_6
 using System.Runtime.InteropServices;
 #endif

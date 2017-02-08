@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     public class TestFixtureAttributeTests
     {

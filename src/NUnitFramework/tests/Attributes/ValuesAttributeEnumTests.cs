@@ -24,11 +24,11 @@
 #region Using Directives
 
 using System;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 #endregion
 
-namespace NUnit.Framework.Tests.Attributes
+namespace UnityCompatNUnit.Framework.Tests.Attributes
 {
     public enum EnumValues
     {

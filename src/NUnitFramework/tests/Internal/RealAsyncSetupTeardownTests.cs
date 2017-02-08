@@ -24,7 +24,7 @@
 #if ASYNC
 using System.Threading.Tasks;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
 #pragma warning disable 1998
     public class RealAsyncSetupTeardownTests

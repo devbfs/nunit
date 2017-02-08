@@ -24,7 +24,7 @@
 using System;
 using System.ComponentModel;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// The NonTestAssemblyAttribute may be used by third-party frameworks

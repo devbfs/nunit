@@ -27,7 +27,7 @@ using System.Collections.Generic;
 using NUnit.Compatibility;
 using System.Reflection;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
 
     /// <summary>

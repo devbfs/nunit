@@ -23,7 +23,7 @@
 
 using System.Collections;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// EmptyCollectionConstraint tests whether a collection is empty. 

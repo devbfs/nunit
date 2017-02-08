@@ -23,7 +23,7 @@
 using System.Reflection;
 using NUnit.Compatibility;
 
-namespace NUnit.Framework.Tests.Compatibility
+namespace UnityCompatNUnit.Framework.Tests.Compatibility
 {
     [TestFixture]
     public class AttributeHelperTests

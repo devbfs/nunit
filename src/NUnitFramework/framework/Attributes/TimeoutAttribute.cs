@@ -23,11 +23,11 @@
 
 #if !PORTABLE && !NETSTANDARD1_6
 using System;
-using NUnit.Framework.Internal;
-using NUnit.Framework.Internal.Commands;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal.Commands;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// Used on a method, marks the test with a timeout value in milliseconds. 

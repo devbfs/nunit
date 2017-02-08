@@ -22,7 +22,7 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Constraints;
 
 #if ASYNC
 using System.Threading.Tasks;
@@ -32,7 +32,7 @@ using System.Threading.Tasks;
 using Task = System.Threading.Tasks.TaskEx;
 #endif
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     [TestFixture]
     public class AssumeThatTests

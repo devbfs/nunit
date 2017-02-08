@@ -23,10 +23,10 @@
 
 using System;
 using System.Xml;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal.Filters;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal.Filters;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// Interface to be implemented by filters applied to tests.

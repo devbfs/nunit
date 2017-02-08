@@ -24,10 +24,10 @@
 using System;
 using System.Collections;
 using System.IO;
-using NUnit.Framework.Assertions;
+using UnityCompatNUnit.Framework.Assertions;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     public class EmptyConstraintTest : ConstraintTestBase

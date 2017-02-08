@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Constraints;
 using NUnit.TestUtilities.Comparers;
 
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     class AssertionHelperTests : AssertionHelper
     {
@@ -191,7 +191,7 @@ namespace NUnit.Framework.Syntax
             Expect(expression, TypeOf<ResolvableConstraintExpression>());
             var constraint = Resolve(expression);
             Expect(constraint, TypeOf<AttributeExistsConstraint>());
-            Expect(constraint.ToString(), EqualTo("<attributeexists NUnit.Framework.TestFixtureAttribute>"));
+            Expect(constraint.ToString(), EqualTo("<attributeexists UnityCompatNUnit.Framework.TestFixtureAttribute>"));
         }
 
         [Test]
@@ -201,7 +201,7 @@ namespace NUnit.Framework.Syntax
             Expect(expression, TypeOf<NullConstraint>());
             var constraint = Resolve(expression);
             Expect(constraint, TypeOf<AttributeConstraint>());
-            Expect(constraint.ToString(), EqualTo("<attribute NUnit.Framework.TestFixtureAttribute <property Description <not <null>>>>"));
+            Expect(constraint.ToString(), EqualTo("<attribute UnityCompatNUnit.Framework.TestFixtureAttribute <property Description <not <null>>>>"));
         }
 
         [Test]
@@ -211,7 +211,7 @@ namespace NUnit.Framework.Syntax
             Expect(expression, TypeOf<ResolvableConstraintExpression>());
             var constraint = Resolve(expression);
             Expect(constraint, TypeOf<AttributeExistsConstraint>());
-            Expect(constraint.ToString(), EqualTo("<attributeexists NUnit.Framework.TestFixtureAttribute>"));
+            Expect(constraint.ToString(), EqualTo("<attributeexists UnityCompatNUnit.Framework.TestFixtureAttribute>"));
         }
 
         [Test]
@@ -221,7 +221,7 @@ namespace NUnit.Framework.Syntax
             Expect(expression, TypeOf<NullConstraint>());
             var constraint = Resolve(expression);
             Expect(constraint, TypeOf<AttributeConstraint>());
-            Expect(constraint.ToString(), EqualTo("<attribute NUnit.Framework.TestFixtureAttribute <property Description <not <null>>>>"));
+            Expect(constraint.ToString(), EqualTo("<attribute UnityCompatNUnit.Framework.TestFixtureAttribute <property Description <not <null>>>>"));
         }
 #endif
 

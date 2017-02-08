@@ -31,15 +31,15 @@ using System.Threading;
 #if NET_2_0 || NET_3_5
 using ManualResetEventSlim = System.Threading.ManualResetEvent;
 #endif
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
 
 #region Individual Event Classes
 
     /// <summary>
-    /// NUnit.Core.Event is the abstract base for all stored events.
+    /// UnityCompatNUnit.Core.Event is the abstract base for all stored events.
     /// An Event is the stored representation of a call to the
     /// ITestListener interface and is used to record such calls
     /// or to queue them for forwarding on another thread or at

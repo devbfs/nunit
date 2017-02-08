@@ -24,11 +24,11 @@
 #if !PORTABLE
 using System;
 using System.IO;
-using NUnit.Framework.Assertions;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Assertions;
+using UnityCompatNUnit.Framework.Constraints;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Tests.Constraints
+namespace UnityCompatNUnit.Framework.Tests.Constraints
 {
     [TestFixture]
     public class FileOrDirectoryExistsConstraintTests

@@ -23,9 +23,9 @@
 
 using System;
 using System.Threading;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     public class DerivedPropertyAttributeTests
     {

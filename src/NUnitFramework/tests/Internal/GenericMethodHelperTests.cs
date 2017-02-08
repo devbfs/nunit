@@ -26,7 +26,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using NUnit.Compatibility;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     public class GenericMethodHelperTests
     {

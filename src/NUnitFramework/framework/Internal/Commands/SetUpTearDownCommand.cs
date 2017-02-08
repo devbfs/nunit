@@ -25,7 +25,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 
-namespace NUnit.Framework.Internal.Commands
+namespace UnityCompatNUnit.Framework.Internal.Commands
 {
     using Execution;
     using Interfaces;

@@ -28,11 +28,11 @@ using System.IO;
 using System.Reflection;
 using System.Web.UI;
 using NUnit.Compatibility;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.Tests.Assemblies;
 
-namespace NUnit.Framework.Api
+namespace UnityCompatNUnit.Framework.Api
 {
     // Functional tests of the FrameworkController and all subordinate classes
     public class FrameworkControllerTests

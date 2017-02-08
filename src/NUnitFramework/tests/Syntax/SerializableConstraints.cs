@@ -22,7 +22,7 @@
 // ***********************************************************************
 
 #if !PORTABLE && !NETSTANDARD1_6
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     [TestFixture]
     public class BinarySerializableTest : SyntaxTest

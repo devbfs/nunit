@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     [Category("Generics")]
     [TestFixture(typeof(double))]

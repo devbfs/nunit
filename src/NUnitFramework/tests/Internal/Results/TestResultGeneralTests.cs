@@ -23,9 +23,9 @@
 
 using System;
 using System.Linq;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Results
+namespace UnityCompatNUnit.Framework.Internal.Results
 {
     public class TestResultGeneralTests : TestResultTests
     {

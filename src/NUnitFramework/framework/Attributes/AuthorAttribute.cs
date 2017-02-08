@@ -26,11 +26,11 @@
 #region Using Directives
 
 using System;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
 #endregion
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// Provides the Author of a test or test fixture. 

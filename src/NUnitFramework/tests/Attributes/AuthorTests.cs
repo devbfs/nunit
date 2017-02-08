@@ -25,14 +25,14 @@
 #region Using Directives
 
 using System;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestData;
 using NUnit.TestUtilities;
 
 #endregion
 
-namespace NUnit.Framework.Tests.Attributes
+namespace UnityCompatNUnit.Framework.Tests.Attributes
 {
     [TestFixture]
     [Author("Rob Prouse", "rob@prouse.org")]

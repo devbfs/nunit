@@ -7,11 +7,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using NUnit.Framework;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestUtilities.Collections;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture]
     class CollectionEqualsTests

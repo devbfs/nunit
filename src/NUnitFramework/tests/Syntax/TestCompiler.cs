@@ -25,7 +25,7 @@
 using System;
 using System.CodeDom.Compiler;
 
-namespace NUnit.Framework.Syntax
+namespace UnityCompatNUnit.Framework.Syntax
 {
     internal class TestCompiler
     {

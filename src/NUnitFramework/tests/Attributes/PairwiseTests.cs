@@ -23,11 +23,11 @@
 
 using System;
 using System.Collections;
-using NUnit.Framework;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal.Builders;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal.Builders;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     [TestFixture]
     public class PairwiseTest
@@ -112,7 +112,7 @@ namespace NUnit.Framework.Attributes
 
             PairCounter pairs = new PairCounter();
             int cases = 0;
-            foreach (NUnit.Framework.Internal.TestCaseParameters parms in strategy.GetTestCases(sources))
+            foreach (UnityCompatNUnit.Framework.Internal.TestCaseParameters parms in strategy.GetTestCases(sources))
             {
                 for (int i = 1; i < features; i++)
                     for (int j = 0; j < i; j++)

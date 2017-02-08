@@ -24,10 +24,10 @@
 using System.Collections;
 using System.Collections.Generic;
 
-using NUnit.Framework.Constraints;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework.Tests.Constraints
+namespace UnityCompatNUnit.Framework.Tests.Constraints
 {
     [TestFixture]
     public class DictionaryContainsValueConstraintTests

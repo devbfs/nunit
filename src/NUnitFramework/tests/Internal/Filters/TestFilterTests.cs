@@ -26,7 +26,7 @@ using System.Collections.Generic;
 using System.Text;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Internal.Filters
+namespace UnityCompatNUnit.Framework.Internal.Filters
 {
     // Filter XML formats
     //
@@ -59,7 +59,7 @@ namespace NUnit.Framework.Internal.Filters
 
     public abstract class TestFilterTests
     {
-        public const string DUMMY_CLASS = "NUnit.Framework.Internal.Filters.TestFilterTests+DummyFixture";
+        public const string DUMMY_CLASS = "UnityCompatNUnit.Framework.Internal.Filters.TestFilterTests+DummyFixture";
 
         protected readonly TestSuite _dummyFixture = TestBuilder.MakeFixture(typeof(DummyFixture));
         protected readonly TestSuite _anotherFixture = TestBuilder.MakeFixture(typeof(AnotherFixture));

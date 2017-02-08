@@ -22,9 +22,9 @@
 // ***********************************************************************
 
 using System.Collections.Generic;
-using NUnit.Framework.Internal; // TODO: We shouldn't reference this in the interface
+using UnityCompatNUnit.Framework.Internal; // TODO: We shouldn't reference this in the interface
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     /// <summary>
     /// The ISimpleTestBuilder interface is exposed by a class that knows how to

@@ -29,9 +29,9 @@ using System.IO;
 using System.Reflection;
 using System.Xml;
 using NUnit.Common;
-using NUnit.Framework.Api;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Api;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 
 namespace NUnitLite
 {

@@ -23,7 +23,7 @@
 
 using System;
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     /// <summary>
     /// Common interface supported by all representations

@@ -22,12 +22,12 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 using NUnit.TestData.OneTimeSetUpTearDownData;
 using NUnit.TestUtilities;
 using NUnit.TestData.TestFixtureTests;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// Tests of the NUnitTestFixture class
@@ -35,7 +35,7 @@ namespace NUnit.Framework.Internal
     [TestFixture]
     public class TestFixtureTests
     {
-        private static string dataAssembly = "nunit.testdata";
+        private static string dataAssembly = "NUnit.TestData";
 
         private static void CanConstructFrom(Type fixtureType)
         {
@@ -403,7 +403,7 @@ namespace NUnit.Framework.Internal
 //		[Test]
 //		public void LoadCategories()
 //		{
-//			TestSuite fixture = LoadFixture("NUnit.Core.Tests.TestFixtureBuilderTests+HasCategories");
+//			TestSuite fixture = LoadFixture("UnityCompatNUnit.Core.Tests.TestFixtureBuilderTests+HasCategories");
 //			Assert.IsNotNull(fixture);
 //			Assert.AreEqual(2, fixture.Categories.Count);
 //		}

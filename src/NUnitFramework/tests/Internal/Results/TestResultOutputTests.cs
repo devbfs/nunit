@@ -24,7 +24,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace NUnit.Framework.Internal.Results
+namespace UnityCompatNUnit.Framework.Internal.Results
 {
     public class TestResultOutputTests
     {

@@ -23,9 +23,9 @@
 #if !PORTABLE
 using System;
 using System.IO;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     #region PathConstraint
     /// <summary>

@@ -26,7 +26,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     [TestFixture(typeof(List<int>))]
     [TestFixture(TypeArgs=new Type[] {typeof(List<object>)} )]

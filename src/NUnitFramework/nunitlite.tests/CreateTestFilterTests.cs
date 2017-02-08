@@ -23,9 +23,9 @@
 
 #if !PORTABLE
 using NUnit.Common;
-using NUnit.Framework;
-using NUnit.Framework.Internal;
-using NUnit.Framework.Internal.Filters;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal.Filters;
 using NUnit.TestUtilities;
 
 namespace NUnitLite.Tests

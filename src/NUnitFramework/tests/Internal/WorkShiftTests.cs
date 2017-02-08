@@ -27,7 +27,7 @@ using System.Collections.Generic;
 using System.Text;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     public class WorkShiftTests
     {

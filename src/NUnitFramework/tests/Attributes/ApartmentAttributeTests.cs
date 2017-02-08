@@ -25,7 +25,7 @@
 using System;
 using System.Threading;
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     [TestFixture]
     public class ApartmentAttributeTests : ThreadingTests

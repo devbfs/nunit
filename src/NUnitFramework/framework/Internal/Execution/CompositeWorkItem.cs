@@ -26,10 +26,10 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Reflection;
 using NUnit.Compatibility;
-using NUnit.Framework.Internal.Commands;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal.Commands;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     /// <summary>
     /// A CompositeWorkItem represents a test suite and

@@ -25,7 +25,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NUnit.Framework.Internal.Filters
+namespace UnityCompatNUnit.Framework.Internal.Filters
 {
     [TestFixture(TestFilterTests.DUMMY_CLASS, false)]
     [TestFixture("Dummy", true)]

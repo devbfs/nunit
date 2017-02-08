@@ -25,7 +25,7 @@
 using System;
 using System.Threading;
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     /// <summary>
     /// A TestWorker pulls work items from a queue

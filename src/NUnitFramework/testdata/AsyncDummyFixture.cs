@@ -23,7 +23,7 @@
 
 #if ASYNC
 using System.Threading.Tasks;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 using System;
 
 #if NET_4_0

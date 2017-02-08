@@ -34,9 +34,9 @@ using System.Text;
 using NUnit.Compatibility;
 #endif
 using System.Threading;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// The TestResult class represents the result of a test.

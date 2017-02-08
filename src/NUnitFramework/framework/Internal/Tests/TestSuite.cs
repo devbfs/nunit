@@ -24,14 +24,14 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal.Commands;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal.Commands;
 
 #if ASYNC
 using System.Threading.Tasks;
 #endif
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// TestSuite represents a composite test, which contains other tests.

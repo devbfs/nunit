@@ -23,10 +23,10 @@
 
 using System;
 using System.Collections.Generic;
-using NUnit.Framework.Internal.Commands;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal.Commands;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     /// <summary>
     /// Summary description for MaxTimeAttribute.

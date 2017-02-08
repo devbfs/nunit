@@ -22,8 +22,8 @@
 // ***********************************************************************
 
 using System.Collections;
-using NUnit.Framework;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Internal;
 
 namespace NUnit.TestData.TestFixtureSourceData
 {

@@ -28,12 +28,13 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+
 using NUnit.Common;
-using NUnit;
-using NUnit.Framework.Api;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
-using NUnit.Framework.Internal.Filters;
+using UnityCompatNUnit;
+using UnityCompatNUnit.Framework.Api;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal.Filters;
 
 namespace NUnitLite
 {

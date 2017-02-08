@@ -30,7 +30,7 @@ using System.Threading;
 using ManualResetEventSlim = System.Threading.ManualResetEvent;
 #endif
 
-namespace NUnit.Framework.Internal.Execution
+namespace UnityCompatNUnit.Framework.Internal.Execution
 {
     /// <summary>
     /// WorkItemQueueState indicates the current state of a WorkItemQueue

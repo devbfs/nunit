@@ -23,7 +23,7 @@
 using System;
 using System.Reflection;
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     /// <summary>
     /// The IMethodInfo class is used to encapsulate information

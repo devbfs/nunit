@@ -27,9 +27,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using NUnit.Compatibility;
-using ActualValueDelegate = NUnit.Framework.Constraints.ActualValueDelegate<object>;
+using ActualValueDelegate = UnityCompatNUnit.Framework.Constraints.ActualValueDelegate<object>;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     [TestFixture, Parallelizable(ParallelScope.None)]
     public class DelayedConstraintTests : ConstraintTestBase

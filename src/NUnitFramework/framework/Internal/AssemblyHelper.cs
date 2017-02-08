@@ -25,7 +25,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
 #if NETSTANDARD1_6
     internal class AssemblyLoader : System.Runtime.Loader.AssemblyLoadContext

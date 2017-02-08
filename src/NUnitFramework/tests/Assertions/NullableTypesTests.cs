@@ -24,7 +24,7 @@
 #if !MONO
 using System;
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     // TODO: Test with Mono
     [TestFixture, Category("Generics")]

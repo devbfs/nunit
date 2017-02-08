@@ -29,7 +29,7 @@ using System.Xml;
 using System.Xml.Linq;
 #endif
 
-namespace NUnit.Framework.Interfaces
+namespace UnityCompatNUnit.Framework.Interfaces
 {
     /// <summary>
     /// TNode represents a single node in the XML representation

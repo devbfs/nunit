@@ -24,13 +24,13 @@
 #if ASYNC
 using System;
 using System.Threading.Tasks;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Constraints;
 
 #if NET_4_0
 using Task = System.Threading.Tasks.TaskEx;
 #endif
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     [TestFixture]
     public class AsyncThrowsTests

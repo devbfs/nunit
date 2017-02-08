@@ -26,17 +26,17 @@
 using System;
 using System.Collections;
 using System.Text;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Tests
+namespace UnityCompatNUnit.Framework.Tests
 {
     [TestFixture, Explicit("These tests fail by design")]
     public class UnhandledExceptionTests
     {
         #region Normal
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void Normal()
         {
             testDummy("Normal", false);
@@ -57,7 +57,7 @@ namespace NUnit.Framework.Tests
         #endregion Normal
 
         #region Threaded
-        //[NUnit.Framework.Test]
+        //[UnityCompatNUnit.Framework.Test]
         //public void Threaded()
         //{
         //    // TODO: Make this fail
@@ -66,7 +66,7 @@ namespace NUnit.Framework.Tests
         #endregion Threaded
 
         #region ThreadedAndWait
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void ThreadedAndWait()
         {
             // TODO: Make this fail
@@ -75,7 +75,7 @@ namespace NUnit.Framework.Tests
         #endregion ThreadedAndWait
 
         #region ThreadedAndForget
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void ThreadedAndForget()
         {
             // TODO: Make this fail
@@ -84,7 +84,7 @@ namespace NUnit.Framework.Tests
         #endregion ThreadedAndForget
 
         #region ThreadedAssert
-        [NUnit.Framework.Test]
+        [UnityCompatNUnit.Framework.Test]
         public void ThreadedAssert()
         {
             testDummy("ThreadedAssert", true);

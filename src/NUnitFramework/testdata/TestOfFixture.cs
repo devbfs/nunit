@@ -24,7 +24,7 @@
 
 #region Using Directives
 
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
 #endregion
 
@@ -47,7 +47,7 @@ namespace NUnit.TestData
         { }
 
         [Test]
-        [TestOf("NUnit.Framework.TestOfAttribute")]
+        [TestOf("UnityCompatNUnit.Framework.TestOfAttribute")]
         public void SeparateTestOfStringMethod()
         { }
 

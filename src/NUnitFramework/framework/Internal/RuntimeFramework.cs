@@ -29,7 +29,7 @@ using System.Linq;
 using System.Reflection;
 using Microsoft.Win32;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     /// <summary>
     /// Enumeration identifying a common language

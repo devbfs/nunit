@@ -22,10 +22,10 @@
 // ***********************************************************************
 
 using System.Collections;
-using NUnit.Framework.Constraints;
+using UnityCompatNUnit.Framework.Constraints;
 using System;
 
-namespace NUnit.Framework
+namespace UnityCompatNUnit.Framework
 {
     public partial class Assert
     {

@@ -25,9 +25,9 @@ using System;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using NUnit.Framework;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
 using NUnit.TestUtilities;
 
 namespace NUnitLite.Tests

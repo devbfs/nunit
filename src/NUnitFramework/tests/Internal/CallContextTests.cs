@@ -29,7 +29,7 @@ using System.Security.Principal;
 using NUnit.TestData.TestFixtureTests;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     // TODO: Make this work for .NET 2.0
     [TestFixture]

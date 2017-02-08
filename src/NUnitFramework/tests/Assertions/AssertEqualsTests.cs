@@ -25,7 +25,7 @@ using NUnit.TestUtilities;
 using System;
 using System.IO;
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
 	[TestFixture]
     [Parallelizable(ParallelScope.None)] // Uses GlobalSettings

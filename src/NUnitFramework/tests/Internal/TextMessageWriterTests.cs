@@ -25,7 +25,7 @@ using System;
 using System.Threading;
 using System.Globalization;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     [TestFixture]
     public class TextMessageWriterTests

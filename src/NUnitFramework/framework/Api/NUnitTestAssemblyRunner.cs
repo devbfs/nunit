@@ -24,18 +24,18 @@
 using System;
 using System.Reflection;
 using System.Threading;
-using NUnit.Framework.Interfaces;
-using NUnit.Framework.Internal;
-using NUnit.Framework.Internal.Execution;
+using UnityCompatNUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal.Execution;
 using System.Collections.Generic;
 using System.IO;
 #if !PORTABLE && !NETSTANDARD1_6
 using System.Diagnostics;
 using System.Security;
-using System.Windows.Forms;
+//using System.Windows.Forms;
 #endif
 
-namespace NUnit.Framework.Api
+namespace UnityCompatNUnit.Framework.Api
 {
     /// <summary>
     /// Implementation of ITestAssemblyRunner
@@ -390,9 +390,9 @@ namespace NUnit.Framework.Api
         [SecuritySafeCritical]
         private static void PauseBeforeRun()
         {
-            var process = Process.GetCurrentProcess();
-            string attachMessage = string.Format("Attach debugger to Process {0}.exe with Id {1} if desired.", process.ProcessName, process.Id);
-            MessageBox.Show(attachMessage, process.ProcessName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //var process = Process.GetCurrentProcess();
+            //string attachMessage = string.Format("Attach debugger to Process {0}.exe with Id {1} if desired.", process.ProcessName, process.Id);
+            //MessageBox.Show(attachMessage, process.ProcessName, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 #endif
 

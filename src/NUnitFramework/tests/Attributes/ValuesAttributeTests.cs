@@ -24,13 +24,13 @@
 using System;
 using System.Reflection;
 using NUnit.Compatibility;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
 #if PORTABLE || NETSTANDARD1_6
 using System.Linq;
 #endif
 
-namespace NUnit.Framework.Attributes
+namespace UnityCompatNUnit.Framework.Attributes
 {
     public class ValuesAttributeTests
     {

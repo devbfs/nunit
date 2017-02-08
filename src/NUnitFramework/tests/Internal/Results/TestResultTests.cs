@@ -24,10 +24,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 using NUnit.TestUtilities;
 
-namespace NUnit.Framework.Internal.Results
+namespace UnityCompatNUnit.Framework.Internal.Results
 {
     /// <summary>
     /// Abstract base for tests of TestResult

@@ -22,9 +22,9 @@
 // ***********************************************************************
 
 using System;
-using NUnit.Framework.Interfaces;
+using UnityCompatNUnit.Framework.Interfaces;
 
-namespace NUnit.Framework.Internal.Commands
+namespace UnityCompatNUnit.Framework.Internal.Commands
 {
     /// <summary>
     /// TestMethodCommand is the lowest level concrete command
@@ -60,7 +60,7 @@ namespace NUnit.Framework.Internal.Commands
             object result = RunTestMethod(context);
 
             if (testMethod.HasExpectedResult)
-                NUnit.Framework.Assert.AreEqual(testMethod.ExpectedResult, result);
+                UnityCompatNUnit.Framework.Assert.AreEqual(testMethod.ExpectedResult, result);
 
             context.CurrentResult.SetResult(ResultState.Success);
 

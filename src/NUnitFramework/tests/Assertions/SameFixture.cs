@@ -23,9 +23,9 @@
 
 using System;
 using System.Text;
-using NUnit.Framework;
+using UnityCompatNUnit.Framework;
 
-namespace NUnit.Framework.Assertions
+namespace UnityCompatNUnit.Framework.Assertions
 {
     [TestFixture]
     public class SameFixture

@@ -25,7 +25,7 @@
 using System;
 using System.Reflection;
 
-namespace NUnit.Framework.Internal
+namespace UnityCompatNUnit.Framework.Internal
 {
     [TestFixture]
     public class RuntimeFrameworkTests

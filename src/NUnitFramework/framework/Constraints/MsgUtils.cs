@@ -25,9 +25,9 @@ using System;
 using System.Text;
 using System.Collections;
 using System.Globalization;
-using NUnit.Framework.Internal;
+using UnityCompatNUnit.Framework.Internal;
 
-namespace NUnit.Framework.Constraints
+namespace UnityCompatNUnit.Framework.Constraints
 {
     /// <summary>
     /// Custom value formatter function
